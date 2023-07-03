@@ -1,0 +1,68 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 8px;
+}
+
+.search-bar {
+  display: flex;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.668); */
+  border: 2px #f50057 solid;
+  border-radius: 7px;
+  width: 400px;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+.search-bar input[type="text"]::placeholder {
+  color: black;
+  background-color: transparent;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  outline: none;
+
+  ::placeholder {
+    color: black;
+  }
+
+  color: rgb(0, 0, 0);
+}
+
+.search-bar button[type="submit"] {
+  padding: 8px 16px;
+  border: none;
+  background-color: #f50057;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f50057;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.668); */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-right: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 4rem;
+
+}
+
+.Button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.Button:focus {
+  outline: none;
+}
