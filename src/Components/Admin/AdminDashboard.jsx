@@ -51,7 +51,7 @@ const AdminDashboard = () => {
   subpayments &&
     subpayments.forEach((item) => {
       if (item.paidAmount) {
-        totalAmount += item.paidAmount;
+        totalsubscriptionAmount += item.paidAmount;
       }
     });
 
