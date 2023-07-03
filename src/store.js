@@ -24,4 +24,4 @@ const store = configureStore({
 
 export default store;
 
-export const server = "https://encodingo.onrender.com/api/v1"
+export const server = "https://goencodingolive.onrender.com/api/v1"
